@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "odoo_informacion",
+    'name': "odoo_basico",
 
     'summary': """
         Proxecto 2""",
 
     'description': """
-        Proxecto 2
+        Descripción do proxecto 2
     """,
 
     'author': "Eu",
@@ -23,8 +23,12 @@
 
     # always loaded
     'data': [
+        # engadir models
+        'views/suceso.xml',
         'views/informacion.xml',
         'views/templates.xml',
+
+        # --------------------
         'views/menu.xml',
         'security/ir.model.access.csv',
     ],

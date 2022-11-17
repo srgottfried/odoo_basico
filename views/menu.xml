@@ -1,6 +1,7 @@
 <odoo>
     <data>
-        <menuitem id="main_odoo_informacion" name="Menú nivel 0. Información"/>
-        <menuitem id="menu_informacion" name="Menú nivel 1. Información" parent="main_odoo_informacion" action="informacion_list_action"/>
+        <menuitem id="main_odoo_informacion" name="Menú nivel 0."/>
+        <menuitem id="menu_informacion" name="Menú nivel 1. Modelos información" parent="main_odoo_informacion" action="informacion_list_action"/>
+        <menuitem id="menu_suceso" name="Menú nivel 1. Modelo suceso" parent="main_odoo_informacion" action="suceso_list_action"/>
     </data>
 </odoo>
