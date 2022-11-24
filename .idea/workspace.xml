@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="356bb3c4-2512-469e-b769-85e4f9cba44f" name="Changes" comment="Primeiro commit">
-      <change afterPath="$PROJECT_DIR$/models/suceso.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/suceso.xml" afterDir="false" />
+    <list default="true" id="356bb3c4-2512-469e-b769-85e4f9cba44f" name="Changes" comment="Actualizacións ODOO">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__manifest__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__manifest__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/informacion.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/informacion.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security/ir.model.access.csv" beforeDir="false" afterPath="$PROJECT_DIR$/security/ir.model.access.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/informacion.xml" beforeDir="false" afterPath="$PROJECT_DIR$/views/informacion.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/views/menu.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/templates.xml" beforeDir="false" afterPath="$PROJECT_DIR$/views/templates.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +64,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667903303820</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Actualizacións ODOO">
+      <created>1668681091255</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668681091255</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -94,6 +94,7 @@
     </ignored-roots>
     <MESSAGE value="Primer commit" />
     <MESSAGE value="Primeiro commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Primeiro commit" />
+    <MESSAGE value="Actualizacións ODOO" />
+    <option name="LAST_COMMIT_MESSAGE" value="Actualizacións ODOO" />
   </component>
 </project>
