@@ -1,7 +1,32 @@
 <odoo>
     <data>
-        <menuitem id="main_odoo_informacion" name="Menú nivel 0."/>
-        <menuitem id="menu_informacion" name="Menú nivel 1. Modelos información" parent="main_odoo_informacion" action="informacion_list_action"/>
-        <menuitem id="menu_suceso" name="Menú nivel 1. Modelo suceso" parent="main_odoo_informacion" action="suceso_list_action"/>
+
+
+        <!-- MENÚ GENERAL -->
+        <menuitem id="main_odoo_informacion"
+                  name="Menú nivel 0."/>
+
+
+        <!-- MENÚ HIJO NIVEL 1 -->
+        <menuitem id="menu_informacion"
+                  name="Menú nivel 1. Modelos información"
+                  parent="main_odoo_informacion"
+                  action="informacion_list_action"/> <!-- ACTION: definida en informacion.xml -->
+
+
+        <!-- MENÚ HIJO NIVEL 1 -->
+        <menuitem id="menu_suceso"
+                  name="Menú nivel 1. Modelo suceso"
+                  parent="main_odoo_informacion"
+                  action="suceso_list_action"/>
+
+
+        <!-- MENÚ HIJO NIVEL 2 -->
+        <menuitem id="menu_suceso"
+                  name="Menú nivel 1. Modelo suceso"
+                  parent="menu_suceso"
+                  action="suceso_list_action"/>
+
+
     </data>
 </odoo>

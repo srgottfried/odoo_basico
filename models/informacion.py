@@ -3,7 +3,30 @@
 from odoo import models, fields, api
 from odoo.exceptions import ValidationError
 
+##################
+# TIPOS DE DATOS #
+##################
+# odoo.fields.Boolean
+# odoo.fields.Char
+# odoo.fields.Float
+# odoo.fields.Integer
 
+# odoo.fields.Binary
+# odoo.fields.Html
+# odoo.fields.Image
+# odoo.fields.Monetary
+# odoo.fields.Selection
+# odoo.fields.Text
+# odoo.fields.Date
+# odoo.fields.DateTime
+
+##################################
+# CLASE DE DEFINICIÓN DE MODELO  #
+##########################################################################################
+# Cada modelo se crea en un fichero independiente en el paquete models.                  #
+# Añadimos el modelo a la BD reiniciando el sistema.                                     #
+# Enlazamos los atributos del modelo con las vistas a través de sus nombres de variable. #
+##########################################################################################
 class informacion(models.Model):
     _name = 'odoo_basico.informacion'
     _description = 'Exemplo para información'

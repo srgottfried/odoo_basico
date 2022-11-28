@@ -26,7 +26,7 @@
         # engadir models
         'views/suceso.xml',
         'views/informacion.xml',
-        'views/templates.xml',
+        'views/views_templates.xml',
 
         # --------------------
         'views/menu.xml',
