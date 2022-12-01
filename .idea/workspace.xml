@@ -5,13 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="356bb3c4-2512-469e-b769-85e4f9cba44f" name="Changes" comment="Actualizacións ODOO">
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/description/img/file_importar.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/description/img/img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/description/img/img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/description/img/img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/description/img/odoo_basico.informacion.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/description/img/odoo_basico.informacion.csv.mal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/description/img/proba.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/description/img/probatodos.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/description/img/scriptFotos.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/odoo_basico.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/odoo_basico.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/__manifest__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__manifest__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/informacion.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/informacion.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/informacion.xml" beforeDir="false" afterPath="$PROJECT_DIR$/views/informacion.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/views/menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/templates.xml" beforeDir="false" afterPath="$PROJECT_DIR$/views/templates.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,21 +40,27 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2H1zyypqgSm2ZdRZlaEYKmwyWAz" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Program Files/Odoo15/server/odoo/custom_addons/odoo_basico&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/a21manuellg/PycharmProjects/odoo_basico&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/description/img" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Program Files\Odoo15\server\odoo\custom_addons\odoo_basico\templates" />
     </key>
@@ -105,6 +119,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
