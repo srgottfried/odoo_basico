@@ -30,7 +30,7 @@ from odoo.exceptions import ValidationError
 class informacion(models.Model):
     _name = 'odoo_basico.informacion'
     _description = 'Exemplo para información'
-    _sql_constraints = [('name', 'unique(name)', 'Non se pode repetir o nome')]
+    _sql_constraints = [('name', 'unique(name)', 'Non se pode repetir o nome')]  # restricciones de unicidad
     _order = "name asc"
 
     name = fields.Char(string="Título:")

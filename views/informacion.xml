@@ -43,7 +43,7 @@ default
                         </page>
                         <page string="Datos numéricos">
                             <group>
-                                <field name="literal" readonly="1"/>
+                                <field name="literal" readonly="1"/> <!-- Campo de sólo lectura -->
                                 <field name="alto_en_cm"/>
                                 <field name="ancho_en_cm"/>
                                 <field name="longo_en_cm"/>
